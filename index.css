@@ -1,0 +1,64 @@
+body {
+    background-color: #000033;
+    font-family: "Trebuchet MS", "sans-serif";
+}
+
+div.main {
+    background-color: #dadada;
+    color: #000033;
+    margin: 4em 4em 4em 4em;
+    padding: 2em;
+}
+
+div.namebar {
+    text-align: left;
+    padding: 0px 10px;
+}
+
+div.infobar {
+    padding: 0px 0px 10px 10px;
+}
+
+div.infobar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #808080;
+    text-decoration: inherit;
+}
+
+div.namebar a {
+    color: inherit;
+}
+
+div.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px;
+    overflow: hidden;
+    background-color: #000033;
+}
+
+div.navbar a {
+    color: inherit;
+}
+
+div.navbar li {
+    float: left;
+}
+
+div.navbar li a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white; 
+}
+
+div.footer {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
