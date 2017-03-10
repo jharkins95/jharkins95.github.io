@@ -1,22 +1,54 @@
 body {
     background-color: #eeeeee;
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: "Corbel", "Helvetica", sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: #aaaaaa;
+    text-decoration: inherit;
 }
 
 div.main {
     background-color: #ffffff;
     color: #666666;
     margin: 4em 20em 4em 20em;
-    padding: 2em 2em 2em 2em;
+    padding: 1em 2em 2em 2em;
 }
 
-div.namebar {
-    text-align: left;
-    padding: 0px 10px;
+div.top {
+    padding: 0em 0em 0.2em 0em;
+}
+
+div.navbar_infobar {
+    float: right;
+}
+
+div.navbar {
+    background-color: #eeeeee;
+}
+
+div.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+
+div.navbar li {
+    float: left;
+    padding: 8px 14px;
+}
+
+div.navbar a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #000000; 
 }
 
 div.infobar {
-    padding: 0px 0px 10px 10px;
+    padding: 20px 0px 0px 10px;
 }
 
 div.infobar ul {
@@ -25,33 +57,14 @@ div.infobar ul {
     padding: 0;
 }
 
-a {
-    color: #aaaaaa;
-    text-decoration: inherit;
+div.namebar {
+    text-align: left;
+    font-size: 32px;
+    padding: 0.1em 1em;
 }
 
 div.namebar a {
     color: inherit;
-}
-
-div.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0px 0px;
-    overflow: hidden;
-    background-color: #cccccc;
-}
-
-div.navbar li {
-    float: left;
-}
-
-div.navbar li a {
-    display: block;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-    color: white; 
 }
 
 div.footer {
