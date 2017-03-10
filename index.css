@@ -2,6 +2,11 @@ body {
     background-color: #eeeeee;
     font-family: "Corbel", "Helvetica", sans-serif;
     font-size: 20px;
+
+    width: 60%;
+    min-width: 900px;
+    margin: auto;
+    padding: 1em 1em 1em 1em;
 }
 
 a {
@@ -12,7 +17,6 @@ a {
 div.main {
     background-color: #ffffff;
     color: #666666;
-    margin: 4em 20em 4em 20em;
     padding: 1em 2em 2em 2em;
 }
 
