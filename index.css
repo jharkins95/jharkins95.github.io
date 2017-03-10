@@ -1,13 +1,13 @@
 body {
-    background-color: #000033;
-    font-family: "Trebuchet MS", "sans-serif";
+    background-color: #eeeeee;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 div.main {
-    background-color: #dadada;
-    color: #000033;
-    margin: 4em 4em 4em 4em;
-    padding: 2em;
+    background-color: #ffffff;
+    color: #666666;
+    margin: 4em 20em 4em 20em;
+    padding: 2em 2em 2em 2em;
 }
 
 div.namebar {
@@ -26,7 +26,7 @@ div.infobar ul {
 }
 
 a {
-    color: #808080;
+    color: #aaaaaa;
     text-decoration: inherit;
 }
 
@@ -39,11 +39,7 @@ div.navbar ul {
     margin: 0;
     padding: 0px 0px;
     overflow: hidden;
-    background-color: #000033;
-}
-
-div.navbar a {
-    color: inherit;
+    background-color: #cccccc;
 }
 
 div.navbar li {
