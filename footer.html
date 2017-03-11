@@ -1,21 +1,17 @@
-<div class="copyright_notice">
-  <p>
-    <script language="Javascript">
-      var year = new Date().getFullYear();
-      document.getElementByID("copyright_notice").innerHTML = "© " +  year + " John J. Harkins. All rights reserved.";
-    </script>
-  </p>
-</div>
+<p><div id="copyright_notice"></div></p>
+<p><div id="page_modified"></div></p>
 
-<div class="page_modified">
-  <p>
-    <script language="Javascript">
-      last = new Date(document.lastModified);
-      month = last.getMonth() + 1;
-      date = last.getDate();
-      year = last.getFullYear();
-      document.getElementByID("page_modfied").innerHTML = "This page last modified on " + month + "/" + date + "/" + year + ".";
-    </script>
-  </p>
-</div>
+<script language="Javascript">
+  var year = new Date().getFullYear();
+  document.getElementById("copyright_notice").innerHTML = "© " +  year + " John J. Harkins. All rights reserved.";
+</script>
+
+<script language="Javascript">
+  last = new Date(document.lastModified);
+  month = last.getMonth() + 1;
+  date = last.getDate();
+  year = last.getFullYear();
+  document.getElementById("page_modified").innerHTML = "This page last modified on " + month + "/" + date + "/" + year + ".";
+</script>
+
 
