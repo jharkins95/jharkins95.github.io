@@ -3,58 +3,27 @@
   <head>
     <title>Jack Harkins</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Ubuntu">
     <link href="index.css" type="text/css" rel="stylesheet"> 
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+        });
+    </script>    
   </head>
 
   <body>
     <div class="main">
-      <div class="top">
-        <div class="navbar_infobar">
-          <div class="navbar">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-        </div>
-        
-        <div class="infobar">
-          <ul>
-            <li>University of Pennsylvania</li>
-            <li>School of Engineering and Applied Science</li>
-            <li>harkj (at) seas (dot) upenn (dot) edu</li>
-          </ul>
-        </div>
-      </div>
-        
-      <div class="namebar">
-      <h1><a href="">Jack Harkins</a></h1>
-      </div>
 
-      </div>
+      <div class="header"><div id="header"></div></div>
       
       <p>I will be blogging here about my upcoming summer internship at Intel. I will post some updates as I prepare for my move, so stay tuned!</p>
       
-      <div class="footer">
-        <p>
-          <script language="Javascript">
-            var year = new Date().getFullYear();
-            document.write("© " +  year + " John J. Harkins. All rights reserved.");
-          </script>
-        </p>
-        <p>
-          <script language="Javascript">
-            last = new Date(document.lastModified);
-            month = last.getMonth() + 1;
-            date = last.getDate();
-            year = last.getFullYear();
-            document.write("This page last modified on " + month + "/" + date + "/" + year + ".");
-          </script>
-        </p>
-      </div>
+      <div class="footer"><div id="footer"></div></div>
 
-      
     </div>
   </body>
 </html>

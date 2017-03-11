@@ -1,9 +1,9 @@
-<p><div id="copyright_notice"></div></p>
-<p><div id="page_modified"></div></p>
+<div id="copyright_notice"></div>
+<div id="page_modified"></div>
 
 <script language="Javascript">
   var year = new Date().getFullYear();
-  document.getElementById("copyright_notice").innerHTML = "© " +  year + " John J. Harkins. All rights reserved.";
+  document.getElementById("copyright_notice").innerHTML = "<p>© " +  year + " John J. Harkins. All rights reserved.</p>";
 </script>
 
 <script language="Javascript">
@@ -11,5 +11,8 @@
   month = last.getMonth() + 1;
   date = last.getDate();
   year = last.getFullYear();
-  document.getElementById("page_modified").innerHTML = "This page last modified on " + month + "/" + date + "/" + year + ".";
+  document.getElementById("page_modified").innerHTML = "<p>This page last modified on " + month + "/" + date + "/" + year + ".</p>";
 </script>
+
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Ubuntu">
