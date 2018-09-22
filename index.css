@@ -1,4 +1,5 @@
 body {
+    border-radius: 10%;
     font-family: "Ubuntu", "Helvetica", "Arial", sans-serif;
     font-size: 20px;
     background-color: #eeeeee;
@@ -14,6 +15,7 @@ a {
 }
 
 div.main {
+    border-radius: 20px;
     background-color: #ffffff;
     color: #666666;
     padding: 1em 2em 2em 2em;
@@ -61,14 +63,24 @@ div.infobar ul {
     padding: 0;
 }
 
+div.namebar-photo img {
+    border: 5px solid #ddd;
+    border-radius: 10%;
+    float: left;
+    vertical-align: top;
+    width: 170px;
+}
+
 div.namebar {
     text-align: left;
     font-size: 32px;
     padding: 0.1em 1em;
+    /*float: left;*/
 }
 
 div.namebar a {
     color: inherit;
+    padding: 0em 1em;
 }
 
 div.footer {
